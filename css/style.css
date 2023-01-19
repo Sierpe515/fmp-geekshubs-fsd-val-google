@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+#container {
+    background-color: aquamarine;
+    font-family: Arial;
+    font-size: small;
+}
+
+#navbar {
+    background-color: antiquewhite;
+    height: 8vh;
+    display: flex;
+}
+
+.navbardiv {
+    width: 50%;
+    margin: 20px;
+}
+
+#bar-r {
+    justify-content: right;
+    display: flex;
+    gap: 20px;
+}
+#bar-l {
+    justify-content: left;
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+#link-l {
+    display: flex;
+    gap: 20px;
+}
+
+#main {
+    background-color: brown;
+    height: 80vh;
+}
+
+#imgs {
+    background-color: yellow;
+    height: 45%;
+}
+
+#buttons {
+    background-color: yellowgreen;
+    height: 10%;
+}
+
+#rest {
+    background-color: blue;
+    height: 45%;
+}
+
+#footer {
+    background-color: gray;
+    height: 12vh;
+    font-weight: bold;
+}
+
+.footerdiv {
+    height: 50%;
+}
+
+#f-esp {
+    padding-left: 20px;
+}
+
+#f-bottom {
+    background-color: blueviolet;
+    display: flex;
+}
+
+#fb-l {
+    background-color: antiquewhite;
+    width: 35%;
+    display: flex;
+    gap: 20px;
+    padding-left: 25px;
+}
+
+#fb-c {
+    width: 30%;
+    justify-content: center;
+    display: flex;
+}
+
+#fb-r {
+    background-color: beige;
+    width: 35%;
+    justify-content: right;
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
