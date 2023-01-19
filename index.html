@@ -11,42 +11,67 @@
     <div id="container">
         <div id="navbar">
             <div class="navbardiv" id="bar-l">
-                <a href="https://about.google/?fg=1&utm_source=google-ES&utm_medium=referral&utm_campaign=hp-header">Sobre Google</a>
-                <a href="https://store.google.com/ES/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=es-ES&pli=1">Tienda</a>
+                <a id="sobreg" href="https://about.google/?fg=1&utm_source=google-ES&utm_medium=referral&utm_campaign=hp-header">Sobre Google</a>
+                <a id="tienda" href="https://store.google.com/ES/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=es-ES&pli=1">Tienda</a>
             </div>
             <div class="navbardiv" id="bar-r">
                 <div id="link-l">
-                    <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
-                    <a href="https://www.google.es/imghp?hl=es&ogbl">Imágenes</a>
+                    <a id="gm" href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
+                    <a id="imag" href="https://www.google.es/imghp?hl=es&ogbl">Imágenes</a>
                 </div>
-                <div id="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" viewBox="0 0 16 16">
-                    <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
-                    </svg>
+                <div id="menuicon">
+                    <a id="menicon" href="https://www.google.com/account/about/?hl=es">
+                        <img src="./img/menu icon.png"
+                         alt="menu"/></a>
+                    
                 </div>
-                <div id="inicarsesion">Iniciar Sesión</div>
+                <div id="inicarsesion">
+                    <button id="btninisesion"><a href="https://accounts.google.com/v3/signin/identifier?dsh=S-1609939358%3A1674158904439337&continue=https%3A%2F%2Fwww.google.com%2Fwebhp%3Fhl%3Des%26sa%3DX%26ved%3D0ahUKEwjS69HvttT8AhXfTKQEHeHxDCoQPAgT&ec=GAZAmgQ&hl=es&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AWnogHe0EjlhmO6QvANVPcvE4DknZu4vOChnJhZaxII6SGbWyxVreuFOgGJUdDALIFvXuBK5kuiwNQ">Iniciar sesión</a></button>
+                </div>
             </div>
         </div>
         <div id="main">
-            <div class="maindiv" id="imgs">3</div>
-            <div class="maindiv" id="buttons">4</div>
-            <div class="maindiv" id="rest">5</div>
+            <div class="maindiv" id="imgs">
+                <div id="logo">
+                    <img id="imglogo" src="./img/logo goo.png" alt="googlelogo">
+                </div>
+                <div id="searchbar">
+                    <div id="searchbar2">
+                        <img id="searchicon" src="./img/search_icon.png" alt="searchicon">
+                        <input type="search" id="search"/>
+                        <img id="micicon" src="./img/7123011_google_mic_icon.png" alt="micicon">
+                        <img id="camicon" src="./img/camera icon.svg" alt="camicon">
+                    </div>
+                </div>
+            </div>
+            <div class="maindiv" id="buttons">
+                <button id="bgoogle" class="btn">Buscar con Google</button>
+                <button id="suerte" class="btn">Voy a tener suerte</button>
+            </div>
+            <div class="maindiv" id="rest">
+                <p>Ofrecido por Google en: 
+                    <a class="link" href="https://www.google.cat/">català </a>
+                    <a class="link" href="https://www.google.com/">galego </a>
+                    <a class="link" href="https://www.google.com/">euskera</a>
+                </p>
+            </div>
         </div>
         <div id="footer">
             <div class="footerdiv" id="f-esp">España</div>
             <div class="footerdiv" id="f-bottom">
                 <div class="fb-div" id="fb-l">
-                    <a href="https://ads.google.com/intl/es_es/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
-                    <a href="https://smallbusiness.withgoogle.com/intl/es_es/?subid=es-es-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=es-es-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Empresa</a>
-                    <a href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
+                    <a id="publi" href="https://ads.google.com/intl/es_es/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+                    <a id="empr" href="https://smallbusiness.withgoogle.com/intl/es_es/?subid=es-es-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=es-es-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Empresa</a>
+                    <a id="cflb" href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a>
                 </div>
                 <div class="fb-div" id="fb-c">
-                    <a href="https://sustainability.google/intl/es/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=#home">Emisión neutra de carbono desde 2007</a>
+                    <img src="./img/hoja.png" alt="hoja">
+                    <a id="emi" href="https://sustainability.google/intl/es/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=#home">Emisión neutra de carbono desde 2007</a>
                 </div>
                 <div class="fb-div" id="fb-r">
-                    <a href="https://policies.google.com/privacy?hl=es&fg=1">Privacidad</a>
-                    <a href="https://policies.google.com/terms?hl=es&fg=1">Términos</a>
-                    <a href="https://chrome.google.com/webstore/detail/settings/afcolgfopkbeailjgaablmhiemdnhlch?hl=es">Configuración</a>
+                    <a id="priva" href="https://policies.google.com/privacy?hl=es&fg=1">Privacidad</a>
+                    <a id="term" href="https://policies.google.com/terms?hl=es&fg=1">Términos</a>
+                    <a id="config" href="https://chrome.google.com/webstore/detail/settings/afcolgfopkbeailjgaablmhiemdnhlch?hl=es">Configuración</a>
                 </div>
             </div>
         </div>

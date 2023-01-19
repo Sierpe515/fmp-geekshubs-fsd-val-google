@@ -2,14 +2,19 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+}
+
 #container {
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     font-family: Arial;
     font-size: small;
 }
 
 #navbar {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     height: 8vh;
     display: flex;
 }
@@ -23,12 +28,17 @@ body {
     justify-content: right;
     display: flex;
     gap: 20px;
+    justify-content: right;
+    align-items: center;
+    color: gray;
 }
 #bar-l {
     justify-content: left;
     display: flex;
     gap: 20px;
-    font-weight: bold;
+    align-items: center;
+    font-family: arial;
+    font-size: 14px;
 }
 
 #link-l {
@@ -36,47 +46,157 @@ body {
     gap: 20px;
 }
 
+#menicon:hover {
+    border: 4px solid grey;
+}
+
+#btninisesion {
+    background-color: rgb(36, 91, 241);
+    border: 0ch;
+    border-radius: 5%;
+    width: 125px;
+    height: 35px;
+    color: white;
+}
+
+#btninisesion:hover {
+    background-color: rgb(32, 76, 197);
+    box-shadow: 0px 2px 20px 3px rgb(204, 204, 204);
+}
+
 #main {
-    background-color: brown;
+    /* background-color: brown; */
     height: 80vh;
 }
 
 #imgs {
-    background-color: yellow;
-    height: 45%;
+    /* background-color: yellow; */
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#imglogo {
+    height: 160px;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    border: 0 white;
+}
+
+#searchbar {
+    /* background-color: rgb(252, 9, 9); */
+    display: flex;
+    justify-content: center;
+}
+
+#searchbar2 {
+    /* background-color: white; */
+    width: 560px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 1px rgb(194, 193, 193);
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    align-items:  center;
+    justify-content: space-between;
+}
+
+#searchbar2:hover {
+    box-shadow: 0px 2px 20px 3px rgb(204, 204, 204);
+}
+
+#searchicon {
+    width: 20px;
+    height: 20px;
+    border: 0px;
+    /* margin-inline: 3px; */
+}
+
+#micicon {
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    /* margin-inline: 3px; */
+}
+
+#camicon {
+    width: 27px;
+    height: 27px;
+    border: 0px;
+    margin-inline: 3px;
+}
+
+#logo {
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
 }
 
 #buttons {
-    background-color: yellowgreen;
-    height: 10%;
+    /* background-color: yellowgreen; */
+    height:5%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#bgoogle:hover {
+    border: 1px rgb(180, 180, 180) solid;
+    box-shadow: 0px 1px rgb(204, 204, 204);
+}
+
+#suerte:hover {
+    border: 1px rgb(180, 180, 180) solid;
+    box-shadow: 0px 1px rgb(204, 204, 204);
+}
+
+.btn {
+    background-color: rgb(238, 236, 236);
+    border: 0ch;
+    border-radius: 5%;
+    width: 150px;
+    font-family: Arial;
+    font-size: 14px;
 }
 
 #rest {
-    background-color: blue;
-    height: 45%;
+    /* background-color: rgb(255, 0, 157); */
+    height:40%;
+    padding-top: 5px;
 }
 
 #footer {
-    background-color: gray;
+    background-color: rgb(235, 234, 234);
     height: 12vh;
-    font-weight: bold;
 }
 
 .footerdiv {
     height: 50%;
+    align-items: center;
+    font-family: Arial;
+    font-size: 15px;
+    color: rgb(97, 97, 97);
 }
 
 #f-esp {
     padding-left: 20px;
+    display: flex;
+    border-bottom: 1px rgb(187, 187, 187) solid;
 }
 
 #f-bottom {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
 }
 
 #fb-l {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     width: 35%;
     display: flex;
     gap: 20px;
@@ -85,12 +205,14 @@ body {
 
 #fb-c {
     width: 30%;
-    justify-content: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 #fb-r {
-    background-color: beige;
+    /* background-color: beige; */
     width: 35%;
     justify-content: right;
     display: flex;
@@ -98,6 +220,60 @@ body {
     padding-right: 20px;
 }
 
-a {
-    text-decoration: none;
+p {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.link {
+    color:rgb(2, 43, 155)
+}
+
+#btninisesion {
+    color: white;
+}
+
+#sobreg:hover {
+    text-decoration: underline;
+}
+
+#tienda:hover {
+    text-decoration: underline;
+}
+
+#gm:hover {
+    text-decoration: underline;
+}
+
+#imag:hover {
+    text-decoration: underline;
+}
+
+#publi:hover {
+    text-decoration: underline;
+}
+
+#empr:hover {
+    text-decoration: underline;
+}
+
+#cflb:hover {
+    text-decoration: underline;
+}
+
+#emi:hover {
+    text-decoration: underline;
+}
+
+#priva:hover {
+    text-decoration: underline;
+}
+
+#term:hover {
+    text-decoration: underline;
+}
+
+#config:hover {
+    text-decoration: underline;
 }
